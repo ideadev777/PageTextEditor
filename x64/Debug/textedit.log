@@ -1,0 +1,77 @@
+﻿Build started 10/3/2020 12:00:32 PM.
+     1>Project "E:\PageBreakTextEdit\textedit\textedit.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>CustomBuild:
+         Moc'ing textedit.h...
+         Rcc'ing textedit.qrc...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtPrintSupport /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtWidgets /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtGui /IC:\Qt\Qt5.0.2\5.0.2\msvc2012_64\include\QtCore /Idebug /I"C:\Qt\Qt5.0.2\5.0.2\msvc2012_64\mkspecs\win32-msvc2012" /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_ES_2 /D QT_OPENGL_ES_2_ANGLE /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt -Zm200 -w34100 -w34189 GeneratedFiles\Debug\moc_textedit.cpp main.cpp textedit.cpp
+         moc_textedit.cpp
+         main.cpp
+     1>main.cpp(55): fatal error C1083: Cannot open include file: 'QCommandLineParser': No such file or directory
+         textedit.cpp
+     1>textedit.cpp(110): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 3 from 'void (__cdecl TextEdit::* )(void)' to 'const char *'
+                 There is no context in which this conversion is possible
+     1>textedit.cpp(111): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 3 from 'void (__cdecl *)(void)' to 'const char *'
+                 There is no context in which this conversion is possible
+     1>textedit.cpp(160): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(166): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(173): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(178): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 3 from 'bool (__cdecl TextEdit::* )(void)' to 'const char *'
+                 There is no context in which this conversion is possible
+     1>textedit.cpp(184): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(190): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(193): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(201): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 3 from 'bool (__cdecl QWidget::* )(void)' to 'const char *'
+                 There is no context in which this conversion is possible
+     1>textedit.cpp(211): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(216): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(224): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(230): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(236): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(251): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(261): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(271): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'const QIcon' to 'const QString &'
+                 Reason: cannot convert from 'const QIcon' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(325): error C2664: 'QAction *QMenu::addAction(const QString &,const QObject *,const char *,const QKeySequence &)' : cannot convert parameter 1 from 'QPixmap' to 'const QString &'
+                 Reason: cannot convert from 'QPixmap' to 'const QString'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>textedit.cpp(433): error C2039: 'setMimeTypeFilters' : is not a member of 'QFileDialog'
+                 c:\qt\qt5.0.2\5.0.2\msvc2012_64\include\qtwidgets\qfiledialog.h(65) : see declaration of 'QFileDialog'
+     1>textedit.cpp(468): error C2039: 'setMimeTypeFilters' : is not a member of 'QFileDialog'
+                 c:\qt\qt5.0.2\5.0.2\msvc2012_64\include\qtwidgets\qfiledialog.h(65) : see declaration of 'QFileDialog'
+     1>textedit.cpp(517): error C2039: 'setMimeTypeFilters' : is not a member of 'QFileDialog'
+                 c:\qt\qt5.0.2\5.0.2\msvc2012_64\include\qtwidgets\qfiledialog.h(65) : see declaration of 'QFileDialog'
+         Generating Code...
+     1>Done Building Project "E:\PageBreakTextEdit\textedit\textedit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.41
